@@ -76,7 +76,7 @@ contract TokenERC20 is ERC20Interface, Owned{
     symbol = "SafeCash";
     name = "SafeCash";
     decimals = 9;
-    _totalSupply = 1000e9;
+    _totalSupply = 500000000000000e9;
     balances[owner] = _totalSupply;
     emit Transfer(address(0), owner, _totalSupply);
   }
